@@ -3,7 +3,7 @@ PHoP
 
 PHoP (PICRUSt Heatmaps of PhyloChip data), pronounced "fop", is a pipeline being developed to visualize PICRUSt results for PhyloChip data. 
 The PhyloChip data were obtained from PhyCA algorithm developed by Second Genome. 
-The pipeline is written in Python and the heatmaps are created in R. A number of Python and R packages are required prior to running this pipeline:
+The pipeline is written in Python 2.7.3 and the heatmaps are created in R 2.15.3. A number of Python and R packages are required prior to running this pipeline:
 
 **Python packages:**
 
@@ -18,7 +18,7 @@ The pipeline is written in Python and the heatmaps are created in R. A number of
 - ggplot2 
 - reshape2
 
-In addition to these extra packages, the FASTA files (for OTU picking) also need to be dowloaded from Greengenes database:
+In addition to these extra packages, the two extra files,  ```gg_13_5.fasta.gz``` and ```gg_13_5_accessions.txt.gz```,need to be downloaded and extracted from the Greengenes database:
 
 http://greengenes.secondgenome.com/downloads/database/13_5
 
