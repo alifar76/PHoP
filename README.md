@@ -7,24 +7,19 @@ The pipeline is written in Python and the heatmaps are created in R. A number of
 
 Python packages:
 
-1) PICRUSt 0.9.2
-
-2) QIIME 1.7.0 (stable public release)
-
-3) xlrd 0.9.2
-
-4) Biopython 1.61
-
-5) Rpy 2.3.6
+- PICRUSt 0.9.2
+- QIIME 1.7.0 (stable public release)
+- xlrd 0.9.2
+- Biopython 1.61
+- Rpy 2.3.6
 
 R packages:
 
-1) ggplot2 
-
-2) reshape2
+- ggplot2 
+- reshape2
 
 In addition to these extra packages, the FASTA files (for OTU picking) also need to be dowloaded from Greengenes database:
 
 http://greengenes.secondgenome.com/downloads/database/13_5
 
-
+Feel free to comment.
