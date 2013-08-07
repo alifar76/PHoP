@@ -1,11 +1,11 @@
 PHoP
 ====
 
-PHoP (PICRUSt Heatmaps of PhyloChip) is a pipeline being developed to visualize PICRUSt results for PhyloChip data. 
+PHoP (PICRUSt Heatmaps of PhyloChip data), pronounced "fop", is a pipeline being developed to visualize PICRUSt results for PhyloChip data. 
 The PhyloChip data were obtained from PhyCA algorithm developed by Second Genome. 
 The pipeline is written in Python and the heatmaps are created in R. A number of Python and R packages are required prior to running this pipeline:
 
-Python packages:
+**Python packages:**
 
 - PICRUSt 0.9.2
 - QIIME 1.7.0 (stable public release)
@@ -13,7 +13,7 @@ Python packages:
 - Biopython 1.61
 - Rpy 2.3.6
 
-R packages:
+**R packages:**
 
 - ggplot2 
 - reshape2
