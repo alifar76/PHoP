@@ -21,7 +21,7 @@ Required Packages
 - [ggplot2](http://ggplot2.org/) 
 - [reshape2](http://cran.r-project.org/web/packages/reshape2/index.html)
 
-In addition to these extra packages, the two extra files,  ```gg_13_5.fasta.gz``` and ```gg_13_5_accessions.txt.gz```, need to be downloaded and extracted from the [Greengenes database](http://greengenes.secondgenome.com/downloads/database/13_5).
+In addition to these extra packages, two extra files,  ```gg_13_5.fasta.gz``` and ```gg_13_5_accessions.txt.gz```, need to be downloaded and extracted from the [Greengenes database](http://greengenes.secondgenome.com/downloads/database/13_5).
 
 
 Feel free to comment.
