@@ -46,4 +46,4 @@ The pipeline can simply be run by the following command in the terminal, assumin
 
 This script requires all other scripts to be present in the same working directory as well as the two extra files dowloaded from Greengenes database.The script also assumes that the input file is also in the working directory. 
 
-The input file should be an Excel file with .xlsx extension with multiple spreadsheets in it. Each spread sheet should contain a list of NCBI Accession IDs of 16S sequences and should correspond to a specific treatment group. A sample input file is also present within the src/ folder called ```sample.xlxs```.
+The input file should be an Excel file with .xlsx extension with multiple spreadsheets in it. Each spread sheet should contain a list of NCBI Accession IDs of 16S sequences and should correspond to a specific treatment group. A sample input file is also present within the src/ folder called ```sample.xlsx```.
