@@ -101,6 +101,7 @@ def axesNames(all_labels):
 
 
 def heatmapPlot():
+	""" This function contains the R script used to make the heatmaps """
 	r_script = '''
 	library(ggplot2); library(reshape2)
 	dat <- read.table('New_Plot.txt',sep="\t", quote = "")
