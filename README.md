@@ -27,3 +27,21 @@ In addition to these extra packages, two extra files,  ```gg_13_5.fasta.gz``` an
 The pipeline has been tested on CentOS release 6.4 (Final).
 
 Feel free to comment.
+
+How to use
+------
+
+All the scripts that are part of the pipeline are present in the src folder. There are 6 scripts in total:
+
+- excelHandle.py
+- seqRetrieve.py
+- qiimeRunner.py
+- picrusT.py
+- heatMapper.py
+- mainScript.py
+
+The pipeline can simply be run by the following command in the terminal, assuming all the depenencies are met:
+
+```python mainScript.py```
+
+This script requires all other scripts to be present in the same working directory as well as the two extra files dowloaded from Greengenes database.The script also assumes that the input file is also in the working directory. The input file should be an Excel file with .xlsx extension with multiple spreadsheets in it. Each spread sheet should contain a list of NCBI Accession IDs of 16S sequences and should correspond to a specific treatment group. A sample input file is also present within the src/ folder called ```sample.xlxs```.
