@@ -1,4 +1,4 @@
-#PHoP (PICRUSt Heatmaps of PhyloChip data)
+#PHoP (PICRUSt Heatmaps of PhyloChip data) v0.1.0
 
 Background
 ------
