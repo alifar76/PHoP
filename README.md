@@ -24,4 +24,6 @@ Required Packages
 In addition to these extra packages, two extra files,  ```gg_13_5.fasta.gz``` and ```gg_13_5_accessions.txt.gz```, need to be downloaded and extracted from the [Greengenes database](http://greengenes.secondgenome.com/downloads/database/13_5).
 
 
+The pipeline has been tested on CentOS release 6.4 (Final).
+
 Feel free to comment.
