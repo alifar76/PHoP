@@ -10,6 +10,7 @@ import itertools
 
 
 def folderCreate(foldernames):
+	""" This function creates the folders to organize the data files """
 	for folder in foldernames:
 		os.system("mkdir %s" % folder)
 	return
