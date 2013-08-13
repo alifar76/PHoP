@@ -1,3 +1,12 @@
+"""
+PHoP v0.1.0: PICRUSt Heatmaps of PhyloChip data
+Copyright 2013 Ali A. Faruqi
+
+This module produces heatmaps of PICRUSt results using NCBI Accession 
+numbers obtained from PhyloChip data.
+
+"""
+
 from datetime import datetime
 import commands
 import os
