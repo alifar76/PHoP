@@ -26,7 +26,6 @@ In addition to these extra packages, two extra files,  ```gg_13_5.fasta.gz``` an
 
 The pipeline has been tested on CentOS release 6.4 (Final).
 
-Feel free to comment.
 
 How to use
 ------
