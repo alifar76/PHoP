@@ -1,4 +1,4 @@
-#PHoP (PICRUSt Heatmaps of PhyloChip data) v0.1.0
+#PHoP (PICRUSt Heatmaps of PhyloChip data) v0.1.2
 
 Background
 ------
@@ -10,11 +10,9 @@ Required Packages
 
 **Python:**
 
-- [PICRUSt 0.9.2](http://picrust.github.io/picrust/install.html#install)
+- [PICRUSt 1.0.0](http://picrust.github.io/picrust/install.html#install)
 - [QIIME 1.7.0 (stable public release)](https://github.com/qiime/qiime-deploy)
-- [xlrd 0.9.2](https://pypi.python.org/pypi/xlrd/0.9.2)
-- [Biopython 1.62](http://biopython.org/wiki/Download)
-- [RPy 2.3.6](https://pypi.python.org/pypi/rpy2/)
+- [xlrd 0.6.1](https://pypi.python.org/pypi/xlrd/0.6.1)
 
 **R:**
 
@@ -24,7 +22,7 @@ Required Packages
 In addition to these extra packages, two extra files,  ```gg_13_5.fasta.gz``` and ```gg_13_5_accessions.txt.gz```, need to be downloaded and extracted from the [Greengenes database](http://greengenes.secondgenome.com/downloads/database/13_5).
 
 
-The pipeline has been tested on CentOS release 6.4 (Final).
+The pipeline has been tested on Ubuntu 12.04.3 LTS.
 
 
 How to use
@@ -45,4 +43,4 @@ The pipeline can simply be run by the following command in the terminal, assumin
 
 This script requires all other scripts to be present in the same working directory as well as the two extra files dowloaded from Greengenes database.The script also assumes that the input file is also in the working directory. 
 
-The input file should be an Excel file with .xlsx extension with multiple spreadsheets in it. Each spread sheet should contain a list of NCBI Accession IDs of 16S sequences and should correspond to a specific treatment group. A sample input file is also present within the src/ folder called ```sample.xlsx```.
+The input file should be an Excel file with .xls extension with multiple spreadsheets in it. Each spread sheet should contain a list of NCBI Accession IDs of 16S sequences and should correspond to a specific treatment group. A sample input file is also present within the src/ folder called ```sample.xls```.
