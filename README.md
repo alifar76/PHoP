@@ -20,7 +20,7 @@ Required Packages
 - [ggplot2](http://ggplot2.org/)
 
 In addition to these extra packages, two extra files, ```gg_13_5.fasta.gz``` and ```gg_13_5_accessions.txt.gz```, need to be downloaded and extracted from the [Greengenes database](http://greengenes.secondgenome.com/downloads/database/13_5).
-For the [OTU Picking via QIIME](http://picrust.github.io/picrust/tutorials/otu_picking.html#otu-picking-tutorial) step, the file ```gg_13_5_otus.tar.gz``` also needs to be downloaded and untarred. 
+For the [OTU Picking via QIIME](http://picrust.github.io/picrust/tutorials/otu_picking.html#otu-picking-tutorial) step, the file ```gg_13_5_otus.tar.gz``` also needs to be downloaded and extracted. 
 These files, once downloaded, need not be downloaded again. The path to these directories can simply be specified by their respective flags in the script.
 
 The pipeline has been tested on Ubuntu 12.04.3 LTS.
