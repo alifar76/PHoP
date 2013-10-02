@@ -21,7 +21,7 @@ Required Packages
 - [reshape2](http://cran.r-project.org/web/packages/reshape2/index.html)
 
 In addition to these extra packages, two extra files, ```gg_13_5.fasta.gz``` and ```gg_13_5_accessions.txt.gz```, need to be downloaded and extracted from the [Greengenes database](http://greengenes.secondgenome.com/downloads/database/13_5).
-For the [OTU Picking via QIIME](http://picrust.github.io/picrust/tutorials/otu_picking.html#otu-picking-tutorial) step, the file [gg_13_5_otus.tar.gz](ftp://greengenes.microbio.me/greengenes_release/gg_13_5/gg_13_5_otus.tar.gz) also needs to be downloaded and untarred. 
+For the [OTU Picking via QIIME](http://picrust.github.io/picrust/tutorials/otu_picking.html#otu-picking-tutorial) step, the file ```gg_13_5_otus.tar.gz``` also needs to be downloaded and untarred. 
 
 The pipeline has been tested on Ubuntu 12.04.3 LTS.
 
