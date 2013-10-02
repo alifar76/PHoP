@@ -20,8 +20,8 @@ Required Packages
 - [ggplot2](http://ggplot2.org/) 
 - [reshape2](http://cran.r-project.org/web/packages/reshape2/index.html)
 
-In addition to these extra packages, two extra files,  ```gg_13_5.fasta.gz``` and ```gg_13_5_accessions.txt.gz```, need to be downloaded and extracted from the [Greengenes database](http://greengenes.secondgenome.com/downloads/database/13_5).
-
+In addition to these extra packages, two extra files, ```gg_13_5.fasta.gz``` and ```gg_13_5_accessions.txt.gz```, need to be downloaded and extracted from the [Greengenes database](http://greengenes.secondgenome.com/downloads/database/13_5).
+For the [OTU Picking via QIIME](http://picrust.github.io/picrust/tutorials/otu_picking.html#otu-picking-tutorial) step, the file [gg_13_5_otus.tar.gz](ftp://greengenes.microbio.me/greengenes_release/gg_13_5/gg_13_5_otus.tar.gz) also needs to be downloaded and untarred. 
 
 The pipeline has been tested on Ubuntu 12.04.3 LTS.
 
@@ -38,10 +38,10 @@ All the scripts that are part of the pipeline are present in the src folder. The
 - ```heatMapper.py```
 - ```mainScript.py```
 
-The pipeline can simply be run by the following command in the terminal, assuming all the depenencies are met:
+To see help with pipeline, simply type the following in the terminal:
 
-```python mainScript.py```
+```python mainScript.py -h```
 
-This script requires all other scripts to be present in the same working directory as well as the two extra files dowloaded from Greengenes database.The script also assumes that the input file is also in the working directory. 
+This script requires all other scripts to be present in the same working directory.The script also assumes that the input file is also in the working directory. 
 
 The input file should be an Excel file with .xls extension with multiple spreadsheets in it. Each spread sheet should contain a list of NCBI Accession IDs of 16S sequences and should correspond to a specific treatment group. A sample input file is also present within the src/ folder called ```sample.xls```.
