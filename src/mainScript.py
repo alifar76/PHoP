@@ -1,5 +1,5 @@
 """
-PHoP v0.1.0: PICRUSt Heatmaps of PhyloChip data
+PHoP v0.1.2: PICRUSt Heatmaps of PhyloChip data
 Copyright 2013 Ali A. Faruqi
 
 This module produces heatmaps of PICRUSt results using NCBI Accession 
