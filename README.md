@@ -12,7 +12,7 @@ Required Packages
 
 - [PICRUSt 1.0.0](http://picrust.github.io/picrust/install.html#install)
 - [BIOM 1.2.0](http://biom-format.org/)
-- [QIIME 1.7.0 (stable public release)](https://github.com/qiime/qiime-deploy)
+- [QIIME 1.8.0 (stable public release)](https://github.com/qiime/qiime-deploy)
 - [xlrd 0.6.1](https://pypi.python.org/pypi/xlrd/0.6.1)
 
 **R:**
