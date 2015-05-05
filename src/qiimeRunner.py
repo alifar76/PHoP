@@ -1,7 +1,6 @@
 import os, sys
 
 
-
 def paramFile(percent,fraction):
 	""" This function creates parameter file for OTU picking through QIIME """
 	infile = open("otu_picking_params_%s.txt" % percent, "w")
