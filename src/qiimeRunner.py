@@ -13,11 +13,6 @@ def paramFile(percent,fraction):
 	return infile2
 
 
-
-
-
-
-
 def qiimeRun(filenames,percent,refpath):
 	""" This function runs QIIME to perform OTU picking """
 	directory = os.listdir(".")
