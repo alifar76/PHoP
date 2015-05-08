@@ -31,7 +31,8 @@ def functioNate(dictionary,description,filename):
 			if  sum([float(i) for i in spline[1:]]) == 0:
 				dictionary[spline[0]] = "Absent"
 	outfile = open("R_Plot_Data.txt",'a')
-	for x in funcList(fileNamer([])[0]):					# List of 333 functions predicted by PICRUSt at level 3 of categorization
+	# List of 333 functions predicted by PICRUSt at level 3 of categorization
+	for x in funcList(fileNamer([])[0]):
 		outfile.write(x+"\t"+description+"\t"+dictionary[x]+"\n")
 	outfile.close()
 	return outfile
@@ -108,7 +109,9 @@ def heatmapPlot():
 	names(dat) <- c("Function", "variable","value") \n\
 	color_code <- c("Present"="red", "Absent"="grey") \n\
 	p1 = ggplot(dat, aes(Function,variable)) + geom_tile(aes(fill = value), \n\
-   	colour = "white") + scale_fill_manual(values=color_code,name="Biological Function") + theme(axis.text.x=element_text(angle=90,hjust=1,vjust=0.5,size=20)) + ylab("Category") + xlab("Biological Function") \n\
+   	colour = "white") + scale_fill_manual(values=color_code,name="Biological Function") \n\
+   	+ theme(axis.text.x=element_text(angle=90,hjust=1,vjust=0.5,size=20)) + ylab("Category") \n\
+   	+ xlab("Biological Function") \n\
 	ggsave(p1, file = "plot.pdf",width = 40, height = 10) \n\
 	color_code <- c("Present"="red", "Absent"="grey") \n\
 	fileNamer <- function(x){ \n\
@@ -128,7 +131,9 @@ def heatmapPlot():
 	} \n\
 	for (i in 1:length(filelist)){ \n\
 		p1 = ggplot(filelist[[i]], aes(Function,variable)) + geom_tile(aes(fill = value), \n\
-   		colour = "white") + scale_fill_manual(values=color_code,name="Biological Function") + theme(axis.text.x=element_text(angle=90,hjust=1,vjust=0.5,size=20)) + ylab("Category") + xlab("Biological Function") \n\
+   		colour = "white") + scale_fill_manual(values=color_code,name="Biological Function") \n\
+   		+ theme(axis.text.x=element_text(angle=90,hjust=1,vjust=0.5,size=20)) + ylab("Category") 
+   		+ xlab("Biological Function") \n\
 		level_label <- paste(levels(filelist[[i]]$variable),collapse='') \n\
 		ggsave(p1, file = paste(level_label,".pdf",sep = ""), width = 40, height = 10) \n\
 		}')
