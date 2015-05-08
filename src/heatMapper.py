@@ -132,7 +132,7 @@ def heatmapPlot():
 	for (i in 1:length(filelist)){ \n\
 		p1 = ggplot(filelist[[i]], aes(Function,variable)) + geom_tile(aes(fill = value), \n\
    		colour = "white") + scale_fill_manual(values=color_code,name="Biological Function") \n\
-   		+ theme(axis.text.x=element_text(angle=90,hjust=1,vjust=0.5,size=20)) + ylab("Category") 
+   		+ theme(axis.text.x=element_text(angle=90,hjust=1,vjust=0.5,size=20)) + ylab("Category") \n\
    		+ xlab("Biological Function") \n\
 		level_label <- paste(levels(filelist[[i]]$variable),collapse='') \n\
 		ggsave(p1, file = paste(level_label,".pdf",sep = ""), width = 40, height = 10) \n\
