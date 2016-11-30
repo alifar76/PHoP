@@ -45,3 +45,8 @@ To see help with pipeline, simply type the following in the terminal:
 This script requires all other scripts to be present in the same working directory. The script also assumes that the input file is also in the working directory. 
 
 The input file should be an Excel file with .xls extension with multiple spreadsheets in it. Each spread sheet should contain a list of NCBI Accession IDs of 16S sequences and should correspond to a specific treatment group. A sample input file is also present within the src/ folder called ```sample.xls```.
+
+Reference
+------
+
+If you have found this pipeline useful, please refer to our work: "[House dust exposure mediates gut microbiome Lactobacillus enrichment and airway immune defense against allergens and virus infection](https://www.ncbi.nlm.nih.gov/pubmed/24344318)"
