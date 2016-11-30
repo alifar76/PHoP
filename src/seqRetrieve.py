@@ -3,8 +3,6 @@ import os, sys
 import subprocess
 import re
 
-
-
 def fasta_iter(fasta_name):
     """ Given a fasta file. yield tuples of header, sequence """
     fh = open(fasta_name, 'rU')
